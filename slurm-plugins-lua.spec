@@ -7,7 +7,7 @@ Group:          Applications/System
 License:        Apache 2.0
 URL:            https://github.com/djw8605/slurm-plugin-base
 Source0:        %{name}-%{version}.tar.gz
-
+BuildArch:      noarch
 Requires:       slurm
 Requires:       lua
 Requires:       lua-linuxsys
